@@ -33,7 +33,7 @@ main {
     display: inline-block;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 
@@ -87,7 +87,14 @@ input.input_search {
     box-shadow: -3px 4px 0px var(--shadowInputColor), -5px 6px 0px var(--borderLight);
     border: 2px solid var(--borderLight);
     border-radius: 5px;
-    outline: 0px;
+    outline: none;
+    transition: all 0.2s;
+}
+
+input.input_search:active {
+    box-shadow: none;
+    right: 2%;
+    top: 16%;
 }
 
 input::placeholder {
@@ -114,14 +121,29 @@ button.bt {
     height: 100%;
     cursor: pointer;
     box-shadow: -3px 4px 0px var(--shadowButton), -5px 6px 0px var(--borderHeavy);
+    transition: all 0.2s;
+}
+
+button.bt:active {
+    box-shadow: none;
 }
 
 button#prev {
     left: 3%;
 }
 
+button#prev:active {
+    top: 15%;
+    left: 0%;
+}
+
 button#next {
     right: 0%;
+}
+
+button#next:active {
+    top: 15%;
+    right: 3%;
 }
 
 .nav {
