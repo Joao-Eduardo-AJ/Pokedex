@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 600px) {
+    input.input_search:hover {
+        box-shadow: none;
+        right: 2%;
+        top: 16%;
+    }
+    
+    button#prev:hover {
+        box-shadow: none;
+        top: 15%;
+        left: 0%;
+    }
+    
+    button#next:hover {
+        box-shadow: none;
+        top: 15%;
+        right: 3%;
+    }
+    }
