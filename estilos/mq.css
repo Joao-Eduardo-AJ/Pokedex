@@ -5,7 +5,6 @@
         box-shadow: none;
         right: 2%;
         top: 16%;
-        pointer-events: none;
     }
     
     button#prev:hover {
