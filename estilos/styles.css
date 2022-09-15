@@ -5,8 +5,13 @@
 :root {
     --grad1: #6ab7f5;
     --grad2: #ecffff;
-    --pokename: #3a444d;
-    --pokenumber: #aaaaaa;
+    --pokenameColor: #3a444d;
+    --pokenumberColor: #6B6B6B;
+    --inputColor: #E3E3E3;
+    --shadowInputColor: #6B6B6B;
+    --shadowButton: rgb(31, 31, 31);
+    --borderLight: rgb(39, 39, 39);
+    --borderHeavy: rgb(15, 15, 15);
 }
 
 * {
@@ -16,7 +21,8 @@
     font-family: 'Oxanium', cursive;
 }
 
-body, html {
+body,
+html {
     background: linear-gradient(to bottom, var(--grad1), var(--grad2)) fixed;
     height: 100vh;
     position: relative;
@@ -29,11 +35,11 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-;}
+}
 
 img#pokedex {
     min-width: 425px;
-    padding: 32px;
+    padding: 36px;
     width: 100%;
 }
 
@@ -46,7 +52,7 @@ img.pokemon_image {
 }
 
 h1.pokemon_data {
-    color: var(--pokenumber);
+    color: var(--pokenumberColor);
     position: absolute;
     top: 57%;
     left: 54%;
@@ -56,5 +62,72 @@ h1.pokemon_data {
 
 .pokemon_name {
     text-transform: capitalize;
-    color: var(--pokename);
+    color: var(--pokenameColor);
+}
+
+form {
+    width:60%;
+    height: 7%;
+    position: absolute;
+    left: 46%;
+    top: 68%;
+    transform: translate(-50%, -50%);
+}
+
+input.input_search {
+    color: var(--pokenumberColor);
+    font-weight: 500;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 97%;
+    height: 100%;
+    padding: 12px;
+    background-color: var(--inputColor);
+    box-shadow: -3px 4px 0px var(--shadowInputColor), -5px 6px 0px var(--borderLight);
+    border: 2px solid var(--borderLight);
+    border-radius: 5px;
+    outline: 0px;
+}
+
+input::placeholder {
+    color: var(--pokenumberColor);
+    font-weight: 500;
+}
+
+div#buttons {
+    width: 60%;
+    height: 7%;
+    position: absolute;
+    left: 46%;
+    top: 83%;
+    transform: translate(-50%, -50%);
+}
+
+button.bt {
+    position: absolute;
+    background-color: var(--pokenameColor);
+    border: solid 2px var(--borderHeavy);
+    border-radius: 5px;
+    top: 0%;
+    width: 42%;
+    height: 100%;
+    cursor: pointer;
+    box-shadow: -3px 4px 0px var(--shadowButton), -5px 6px 0px var(--borderHeavy);
+}
+
+button#prev {
+    left: 3%;
+}
+
+button#next {
+    right: 0%;
+}
+
+.nav {
+    filter: invert(95%);
+    position: relative;
+    top: 6%;
+    width: 16%;
+    display: inline-block;
 }
