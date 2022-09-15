@@ -141,10 +141,10 @@ button#next {
     right: 0%;
 }
 
-/*button#next:active {
+button#next:active {
     top: 15%;
     right: 3%;
-}*/
+}
 
 .nav {
     filter: invert(95%);
