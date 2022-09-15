@@ -29,17 +29,16 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-background-color: #6ab7f5
 ;}
 
 img#pokedex {
     min-width: 425px;
-    padding: 15px;
+    padding: 32px;
     width: 100%;
 }
 
 img.pokemon_image {
-    width: 25%;
+    width: 24%;
     position: absolute;
     left: 48%;
     top: 41%;
@@ -50,9 +49,9 @@ h1.pokemon_data {
     color: var(--pokenumber);
     position: absolute;
     top: 57%;
-    left: 53%;
+    left: 54%;
     transform: translate(-50%, -50%);
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 .pokemon_name {
