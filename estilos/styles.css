@@ -1,2 +1,61 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --grad1: #6ab7f5;
+    --grad2: #ecffff;
+    --pokename: #3a444d;
+    --pokenumber: #aaaaaa;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body, html {
+    background: linear-gradient(to bottom, var(--grad1), var(--grad2)) fixed;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+background-color: #6ab7f5
+;}
+
+img#pokedex {
+    min-width: 425px;
+    padding: 15px;
+    width: 100%;
+}
+
+img.pokemon_image {
+    width: 25%;
+    position: absolute;
+    left: 48%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+}
+
+h1.pokemon_data {
+    color: var(--pokenumber);
+    position: absolute;
+    top: 57%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8em;
+}
+
+.pokemon_name {
+    text-transform: capitalize;
+    color: var(--pokename);
+}
