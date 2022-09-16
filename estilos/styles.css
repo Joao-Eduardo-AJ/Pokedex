@@ -52,12 +52,12 @@ img.pokemon_image {
 }
 
 h1.pokemon_data {
-    width: 100%;
+    width: 51%;
     text-align: right;
     color: var(--pokenumberColor);
     position: absolute;
     top: 57%;
-    left: 23%;
+    left: 49%;
     transform: translate(-50%, -50%);
     font-size: 1.6em;
 }
