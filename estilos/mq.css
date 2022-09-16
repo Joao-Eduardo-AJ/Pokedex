@@ -11,13 +11,11 @@
         box-shadow: none;
         top: 15%;
         left: 0%;
-        pointer-events: none;
     }
     
     button#next:hover {
         box-shadow: none;
         top: 15%;
         right: 3%;
-        pointer-events: none;
     }
 }
