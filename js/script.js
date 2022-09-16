@@ -16,6 +16,7 @@ const fetchPokemon = async (pokemon) => {
 
     traco.textContent = '-';
     pokemonImage.style.display = 'block';
+    pokemonName.style.fontSize = '0.9em';
 
     if (APIResponse.status == 200) {
         const data = await APIResponse.json();
