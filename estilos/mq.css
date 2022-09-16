@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 480px) {
+
+    body, html {
+        height: 100vh;
+    }
+
     input.input_search:hover {
         box-shadow: none;
         right: 2%;
