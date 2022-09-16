@@ -57,9 +57,9 @@ h1.pokemon_data {
     color: var(--pokenumberColor);
     position: absolute;
     top: 57%;
-    left: 24%;
+    left: 23%;
     transform: translate(-50%, -50%);
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 
 .pokemon_name {
