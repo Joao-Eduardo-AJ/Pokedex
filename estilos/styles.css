@@ -38,8 +38,8 @@ main {
 }
 
 img#pokedex {
-    min-width: 425px;
-    padding: 32px;
+    min-width: 415px;
+    padding: 40px;
     width: 100%;
 }
 
