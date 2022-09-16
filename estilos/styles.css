@@ -34,13 +34,13 @@ main {
     display: inline-block;
     position: absolute;
     left: 50%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
 img#pokedex {
     min-width: 430px;
-    padding: 40;
+    padding: 32px;
     width: 100%;
 }
 
@@ -57,10 +57,10 @@ h1.pokemon_data {
     text-align: right;
     color: var(--pokenumberColor);
     position: absolute;
-    top: 58%;
-    left: 29%;
+    top: 57%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    font-size: 0.9;
+    font-size: 1.7em;
 }
 
 .pokemon_name {
