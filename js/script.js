@@ -41,7 +41,7 @@ const renderPokemon = async (pokemon) => {
     } else {
         pokemonImage.style.display = 'none';
         pokemonNumber.textContent = ''; 
-        pokemonName.style.fontSize = '0.5em';
+        pokemonName.style.fontSize = '0.6em';
         pokemonName.textContent = 'Pokémon não encontrado';
         traco.textContent = '';
         input.value = '';

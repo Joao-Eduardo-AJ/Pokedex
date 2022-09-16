@@ -24,8 +24,7 @@
 body,
 html {
     background: linear-gradient(to bottom, var(--grad1), var(--grad2)) fixed;
-    background-size: cover;
-    height: 100vh;
+    height: 96vh;
     position: relative;
 }
 
@@ -39,7 +38,7 @@ main {
 }
 
 img#pokedex {
-    min-width: 430px;
+    min-width: 425px;
     padding: 32px;
     width: 100%;
 }
